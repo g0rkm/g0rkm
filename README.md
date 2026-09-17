@@ -1,4 +1,4 @@
-# Hi, I'm Görkem Mutlu 👋
+# Hi, I'm Görkem
 
 🎓 Computer Engineering Student  
 🤖 AI / Machine Learning / NLP  

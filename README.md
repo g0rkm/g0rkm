@@ -44,7 +44,7 @@ Our team achieved **2nd place in Türkiye** in the Natural Language Agents categ
 
 ## Featured Projects
 
-### [Sentinel-Agent](https://github.com/Hybrid-Translation-Project/Sentinel-Agent)
+### [Sentinel-Agent](https://github.com/TeamMagi/Sentinel-Agent)
 *AI-assisted, evidence-based access-control penetration testing tool*
 
 A security testing tool designed to detect authorization vulnerabilities such as **IDOR / BOLA**, **BFLA**, **BOPLA**, **BOLA write vulnerabilities**, **Reflected XSS** and **Error-based SQL Injection**.

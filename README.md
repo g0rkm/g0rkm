@@ -1,22 +1,25 @@
 <div align="center">
 
-# Hi, I'm Görkem
+# Hi, I'm Görkem 👋
 
-**Computer Engineering Student**
-&nbsp;·&nbsp; AI / Machine Learning / NLP
-&nbsp;·&nbsp; Software Development & Cybersecurity
+**Computer Engineering Student | AI Enthusiast**
 
-I am a Computer Engineering student interested in building practical AI systems,<br>
-intelligent software and security-oriented tools.
-
-![Artificial Intelligence & Machine Learning](https://img.shields.io/badge/Artificial_Intelligence_&_Machine_Learning-2F3542?style=flat-square)
-![Natural Language Processing](https://img.shields.io/badge/Natural_Language_Processing-2F3542?style=flat-square)
-![RAG & AI Agents](https://img.shields.io/badge/RAG_&_AI_Agents-2F3542?style=flat-square)
-![Backend Development](https://img.shields.io/badge/Backend_Development-2F3542?style=flat-square)
-![Cybersecurity](https://img.shields.io/badge/Cybersecurity-2F3542?style=flat-square)
-![Data Processing](https://img.shields.io/badge/Data_Processing-2F3542?style=flat-square)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/görkemmutlu)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/g0rkm)
 
 </div>
+
+---
+
+## About Me
+
+🎓 Computer Engineering student at **Sakarya University of Applied Sciences (SUBÜ)**
+
+🤖 Passionate about **Artificial Intelligence**, **NLP**, and **Cybersecurity**
+
+🌍 Erasmus+ exchange student at **Riga Technical University** (Spring 2027)
+
+📫 Reach me at **gorkemmutlu227@gmail.com**
 
 ---
 
@@ -32,7 +35,7 @@ intelligent software and security-oriented tools.
 
 **TEKNOFEST — Natural Language Agents Category**
 
-Our team achieved **2nd place in Türkiye** in the Natural Language Agents category with an AI agent project focused on extracting structured, source-grounded information from participation banking campaign texts.
+Built a multi-agent AI system for airline network optimization using LangGraph and function-calling LLMs. Our team placed **2nd nationally** among all competitors in the NLP Agents track.
 
 [AI Agent NLP →](https://github.com/erenkendir722/ai-agent-nlp)
 
@@ -40,182 +43,54 @@ Our team achieved **2nd place in Türkiye** in the Natural Language Agents categ
 </tr>
 </table>
 
+<table>
+<tr>
+<td width="140" align="center">
+<h3>2nd</h3>
+<sub>NASA Space Apps<br>Sakarya</sub>
+</td>
+<td>
+
+**NASA Space Apps Challenge 2026 — Sakarya**
+
+Led **Team MAGI** as team captain. Built **PyroSync**, a full-stack platform that harmonizes 25 years of MODIS and VIIRS satellite fire data from NASA FIRMS, resolving sensor-gap inconsistencies with Rust (Axum/Tokio), React, and H3 hexagonal spatial indexing.
+
+[PyroSync →](https://github.com/TeamMagi/SpaceApps2026-MODIS-VIIRS)
+
+</td>
+</tr>
+</table>
+
 ---
 
-## Featured Projects
+## Projects
 
-### [Sentinel-Agent](https://github.com/TeamMagi/Sentinel-Agent)
-*AI-assisted, evidence-based access-control penetration testing tool*
-
-A security testing tool designed to detect authorization vulnerabilities such as **IDOR / BOLA**, **BFLA**, **BOPLA**, **BOLA write vulnerabilities**, **Reflected XSS** and **Error-based SQL Injection**.
-
-The architecture separates AI reasoning from vulnerability verdicts: the LLM proposes hypotheses, while deterministic components validate findings and produce reproducible evidence.
-
-`Python` `Docker` `Playwright` `HTTPX` `LLMs` `OWASP API Security`
-
-<br>
-
-### [Public Document Analysis System](https://github.com/g0rkm/kamu_evrak_analizi)
-*Multi-agent AI system for public-sector document analysis, legislation matching and routing*
-
-An end-to-end multi-agent system designed to automate public-sector document workflows, featuring classification across **18 document types**, entity extraction, **RAG-assisted legislation matching**, **PII / KVKK detection & masking**, official response drafting and automated department routing with **human-in-the-loop** review.
-
-The architecture coordinates parallelized specialist agents alongside a deterministic **ReasoningAgent** that validates LLM outputs against rule chains and prevents personal data leakage.
-
-`Python` `FastAPI` `Multi-Agent` `RAG` `scikit-learn` `Tesseract OCR` `Docker`
-
-<br>
-
-### [AI Mail Assistant](https://github.com/Hybrid-Translation-Project/MailAssistant)
-*Privacy-first AI-powered email management system*
-
-An intelligent email assistant capable of:
-
-<table>
-<tr>
-<td>Automatic email classification</td>
-<td>AI-generated reply drafts</td>
-<td>Task extraction</td>
-</tr>
-<tr>
-<td>Semantic search</td>
-<td>Relationship scoring</td>
-<td>Smart reminders</td>
-</tr>
-<tr>
-<td>Multiple email accounts</td>
-<td>Google OAuth</td>
-<td>Local LLM inference</td>
-</tr>
-</table>
-
-AI processing is designed to run locally using Ollama, Qwen2.5 and Whisper.
-
-`React` `FastAPI` `MongoDB` `Ollama` `Qwen2.5` `Whisper` `RAG`
-
-<br>
-
-<table>
-<tr>
-<td width="33%" valign="top">
-
-#### [Hybrid Translation System](https://github.com/Hybrid-Translation-Project/TranslationWebsite)
-
-A hybrid translation system combining rule-based translation with neural machine translation.
-
-The system uses a rule-based layer before falling back to a transformer-based AI translation model.
-
-`Python` `Django` `MongoDB` `Prolog` `PySWIP` `NLLB`
-
-</td>
-<td width="33%" valign="top">
-
-#### [Personal Analyst](https://github.com/g0rkm/Personal-analyst-diary-AI)
-
-A privacy-focused desktop diary combining journaling, local LLM inference, RAG and analytical querying.
-
-Uses a Smart Query Router to delegate numerical calculations to SQL rather than the LLM.
-
-`Python` `PyQt6` `SQLite` `LanceDB` `llama.cpp` `Qwen2.5`
-
-</td>
-<td width="33%" valign="top">
-
-#### [Club Platform](https://github.com/Hybrid-Translation-Project/code_tutorial_lms)
-
-An interactive education and coding platform designed for club-based training and learning workflows.
-
-`Next.js` `Supabase` `PostgreSQL` `Authentication` `RLS`
-
-</td>
-</tr>
-</table>
+| Project | Description | Tech Stack |
+|---------|------------|------------|
+| [Kamu Evrak Analizi](https://github.com/g0rkm/kamu_evrak_analizi) | AI-powered Turkish government document classification system | Python, Transformers, RAG |
+| [Sentinel Agent](https://github.com/TeamMagi/Sentinel-Agent) | Autonomous cybersecurity agent using MCP and LLM orchestration | Python, MCP, LangChain |
+| [Mail Assistant](https://github.com/Hybrid-Translation-Project/MailAssistant) | Intelligent email assistant with NLP capabilities | Python, NLP |
 
 ---
 
 ## Tech Stack
 
-**Languages**
+<div align="center">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
-**AI / ML**
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![Machine Learning](https://img.shields.io/badge/Machine_Learning-555555?style=flat-square)
-![Deep Learning](https://img.shields.io/badge/Deep_Learning-555555?style=flat-square)
-![NLP](https://img.shields.io/badge/NLP-555555?style=flat-square)
-![RAG](https://img.shields.io/badge/RAG-555555?style=flat-square)
-![AI Agents](https://img.shields.io/badge/AI_Agents-555555?style=flat-square)
-![Transformer Models](https://img.shields.io/badge/Transformer_Models-555555?style=flat-square)
-![Information Retrieval](https://img.shields.io/badge/Information_Retrieval-555555?style=flat-square)
-![Local LLMs](https://img.shields.io/badge/Local_LLMs-555555?style=flat-square)
-
-**Backend / Databases**
-
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-
-**DevOps / Security**
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![WSL2](https://img.shields.io/badge/WSL2-0078D4?style=flat-square)
-![OWASP](https://img.shields.io/badge/OWASP-000000?style=flat-square&logo=owasp&logoColor=white)
-![Web Security Testing](https://img.shields.io/badge/Web_Security_Testing-555555?style=flat-square)
+</div>
 
 ---
 
-<table>
-<tr>
-<td width="40%" valign="top">
+<div align="center">
 
-### Currently Learning
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=g0rkm&show_icons=true&theme=radical)
 
-- Machine Learning
-- Deep Learning
-- Natural Language Processing
-- AI Agent Architectures
-- Retrieval-Augmented Generation
-- Computer Vision
-- MLOps
-
-</td>
-<td width="60%" valign="top">
-
-### Areas of Interest
-
-```text
-Artificial Intelligence
-├── Machine Learning
-├── Deep Learning
-├── NLP
-├── RAG
-└── AI Agents
-
-Software Engineering
-├── Backend Development
-├── Database Systems
-├── Distributed Applications
-└── Docker / Linux
-
-Cybersecurity
-├── Web Security
-├── API Security
-└── Security Automation
-```
-
-</td>
-</tr>
-</table>
+</div>
